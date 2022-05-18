@@ -1,4 +1,4 @@
-1.Hướng dẫn cài đặt
+1.Hướng dẫn cài đặt<space><space>:
 *Cách lấy chương trình về: 
   -Tải xuống các file trong repo này
 *Cài đặt để chạy được chương trình
