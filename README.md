@@ -1,4 +1,4 @@
-1.Hướng dẫn cài đặt<space><space>:
+1.Hướng dẫn cài đặt: <space><space>
 *Cách lấy chương trình về: 
   -Tải xuống các file trong repo này
 *Cài đặt để chạy được chương trình
@@ -30,7 +30,12 @@
 
 5.Kết luận
 *Hướng phát triển: 
-  -tạo bãi mìn hình tròn
+  -phiên bản có bãi mìn hình tròn
+  -người chơi tự điều chỉnh số ô, bom
 *Điều tâm đắc:
+  -hàm createPlayGround() ở phiên bản đầu tiên có độ dài gấp 3 lần ở phiên bản này (phiên bản thứ 2) vì chia ra quá nhiều trường hợp
+  -hàm reveal()
+  -viết xong hai class
+  -sửa rất nhiều lần để hoàn thiện
 
   
