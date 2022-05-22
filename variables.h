@@ -56,7 +56,6 @@ extern Texture gMineLeftTexture;//
 extern Texture gPlayAgainTexture;//
 extern Texture gTimeTexture;//
 //extern Texture gNameTexture;//
-
 //extern Texture gStartTexture;
 //extern Texture gExitTexture;
 
