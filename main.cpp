@@ -36,103 +36,7 @@ using namespace std;
 
 
 
-/*int main( int argc, char** argv )  // sdl yeu cau main loai nay
-{
 
-	//Start up SDL and create window
-	if( !init() )
-	{
-		cout << "Failed to initialize!\n";
-	}
-	else
-	{
-		//Load media
-		if( !loadMedia() )
-		{
-			cout << "Failed to load media!\n";
-		}
-		else
-		{
-		
-			bool quit = false;
-
-			//Event handler
-			SDL_Event e;
-
-			//While application is running
-		
-				
-				
-				while( !quit )
-			{
-				//MENU_render(gRenderer);
-				
-			    createPlayGround();
-
-			    timeCount.start();
-
-
-			    //While game is not over yet
-			    while ( !gameOver && !quit && !isWinning)
-                {
-                    //Handle events on queue
-                    while( SDL_PollEvent( &e ) != 0 )
-                    {
-                        //User requests quit
-                        if( e.type == SDL_QUIT || e.key.keysym.sym == SDLK_ESCAPE) //
-                        {
-                            quit = true;
-                        }
-
-
-                       for (int i = 0; i < ROW_SIZE; i++)
-                        {
-                            for (int j = 0; j < COLUMN_SIZE; j++)
-                            {
-                                gButtons[i][j].handleEvent( &e );
-                            }
-                        }
-                        isWinning = checkWinning();
-
-                    }
-
-                    //Clear screen
-                    SDL_SetRenderDrawColor( gRenderer, 0xFF, 0xFF, 0xFF, 0xFF );
-                    SDL_RenderClear( gRenderer );
-
-                    //Render background
-                    gBackgroundTexture.render(0, 0);
-
-                    for( int i = 0; i < ROW_SIZE; i++ )
-                    {
-                        for ( int j = 0; j < COLUMN_SIZE; j++ )
-                        {
-                            gButtons[i][j].render(i, j);
-                        }
-                    }
-
-                    mineManager();
-                       
-    
-                    timeManager();
-                    
-
-                    flagManager();	
-					
-                    //Update screen
-                    SDL_RenderPresent( gRenderer );
-                }
-                playAgainManager( quit );
-			}
-			
-		}
-	}
-
-	//Free resources and close SDL
-	close();
-
-	return 0;
-}*/
 
 int main( int argc, char* args[] )
 {
@@ -200,11 +104,11 @@ int main( int argc, char* args[] )
                             gButtons[i][j].render(i, j);
                         }
                     }
-                    //Render mine/flag left
+                    
                     mineManager();
 					
-					//Render timer 
-					timeManager();
+		    
+		    timeManager();
 
                     //Perform win/lose flag
                     flagManager();
@@ -212,7 +116,7 @@ int main( int argc, char* args[] )
                     //Update screen
                     SDL_RenderPresent( gRenderer );
                 }
-                //Check play again flag
+                
                 playAgainManager( quit );
 			}
 		}
