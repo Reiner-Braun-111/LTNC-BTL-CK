@@ -120,7 +120,7 @@ SDL_ttf-2.0.15 https://www.libsdl.org/projects/SDL_ttf/release/
   
   
   
-3.Mô tả chức năng 
+# 3.Mô tả chức năng 
   
   
   
