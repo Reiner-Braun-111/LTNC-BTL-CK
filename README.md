@@ -8,12 +8,12 @@
 
 
 
-Tóm tắt:
+# Tóm tắt:
 # 1. Downloads
 
 1. MinGW-W64 GCC-7.3.0-SEH 
     
-    [MinGW-w64 - for 32 and 64 bit Windows](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/7.3.0/threads-win32/seh/x86_64-7.3.0-release-win32-seh-rt_v5-rev0.7z)
+    https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/7.3.0/threads-win32/seh/x86_64-7.3.0-release-win32-seh-rt_v5-rev0.7z
     
 2. SDL2 MinGW
     
@@ -25,12 +25,12 @@ Tóm tắt:
 # 2. Setup MinGW-W64 (64bit)
 
 - Giải nén file x86_64-7.3.0-release-win32-seh-rt_v5-rev0.7z
-- Copy thư mục `mingw64` vào <ROOTDIR> 
-- Cài đặt đường dẫn PATH đến  <ROOTDIR>\mingw64\bin
+- Copy thư mục `mingw64` vào ROOTDIR
+- Cài đặt đường dẫn PATH đến  ROOTDIR\mingw64\bin
 
 # 3. Setup SDL2 (64bit)
 
-- Giải nén file SDL2-devel-2.0.20-mingw.tar.gz
+- Giải nén file mingw.tar.gz
 - Copy thư mục `SDL2-2.0.20` vào ROOTDIR
 - Trong thư mục ROOTDIR\SDL2-2.0.20\x86_64-w64-mingw32 có 3 thư mục `bin, include, lib`
 - Tạo 1 thư mục SRCDIR để chứa các file mã nguồn
@@ -41,7 +41,7 @@ Tóm tắt:
   
   
   
--Các thư viện khác làm tương tự 
+# -Các thư viện sau đây làm tương tự như với SDL2
   
   
 SDL_image-2.0.5 https://www.libsdl.org/projects/SDL_image/
@@ -80,13 +80,12 @@ SDL_ttf-2.0.15 https://www.libsdl.org/projects/SDL_ttf/release/
   
   
   # *Cách lấy chương trình về: 
--Tải xuống các file trong repo này, copy tất cả vào ROOTDIR
+-Tải xuống các file trong repo này trừ final.rar, copy tất cả vào ROOTDIR
   
-  # Built file .exe
+  # Dịch chương trình
   
   
-  
-  Shift + chuột trái -> Windows PowerShell -> nhập mingW32-make
+  Shift + chuột trái -> Windows PowerShell -> nhập mingw32-make
   
   
   
