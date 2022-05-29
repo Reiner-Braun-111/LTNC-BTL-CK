@@ -131,10 +131,10 @@ SDL_ttf-2.0.15 https://www.libsdl.org/projects/SDL_ttf/release/
   
 -Chơi lại sau khi kết thúc 
   
+ 
   
   
-  
--Có âm thanh 
+-Có âm thanh, menu
   
   
   
