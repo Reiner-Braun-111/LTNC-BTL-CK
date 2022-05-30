@@ -169,7 +169,7 @@ SDL_ttf-2.0.15 https://www.libsdl.org/projects/SDL_ttf/release/
   
   
   - hàm createPlayGround() lúc đầu rất dài do chia nhỏ nhiều trường hợp, ở bản cuối cùng được rút ngắn, đưa về bản chất
-  - hàm để mở các ô xung quanh phát triển từ mở duy nhất ô bấm vào -> mở các ô trên cùng cột/hàng -> tạo lớp riêng để lưu các ô -> hiện tại, thay đổi rất nhiều
+  - hàm để mở các ô xung quanh phát triển từ mở duy nhất ô bấm vào -> mở các ô trên cùng cột/hàng -> tạo lớp riêng để lưu các ô -> hiện tại (có tham khảo), thay đổi rất nhiều
   - 
   
   
