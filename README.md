@@ -128,7 +128,7 @@ SDL_ttf-2.0.15 https://www.libsdl.org/projects/SDL_ttf/release/
 -Game dò mìn cổ điển kích thước 10x10 ô, rải 12 quả mìn
   
   
--Nemu có 2 tùy chọn: chơi/thoát  
+-Menuu có 2 tùy chọn: chơi/thoát  
   
 Khi chơi có:
 
