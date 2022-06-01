@@ -125,16 +125,51 @@ SDL_ttf-2.0.15 https://www.libsdl.org/projects/SDL_ttf/release/
   
   
   
--Game dò mìn cổ điển kích thước 10x10 ô, rải 12 quả mìn, có thời gian
+-Game dò mìn cổ điển kích thước 10x10 ô, rải 12 quả mìn
   
   
+-Nemu có 2 tùy chọn: chơi/thoát  
   
--Chơi lại sau khi kết thúc 
+Khi chơi có:
+
+
+
+-Hiện số bom còn lại/chưa đánh dấu
+
+
+
+
+-Có đồng hồ tính thời gian từ khi bất đầu
+
+
+
+
+Khi kết thúc game:
+
+
+
+
+-Có âm thanh và hình ảnh/ yêu cầu chơi lại 
+
+
+
+
+-Bấm để chơi lại sau khi kết thúc 
   
  
   
   
--Có âm thanh, menu
+  
+  
+-Có âm thanh khi kết thúc game
+
+
+
+
+  
+ Trong quá trình chơi có thể thoát ra và game kết thúc
+  
+  
   
   
   
@@ -146,16 +181,33 @@ SDL_ttf-2.0.15 https://www.libsdl.org/projects/SDL_ttf/release/
   
   
   
--mảng, lớp, đồ họa SDL
+-mảng, con trỏ, sstream, lớp
+
+
+-đồ họa SDL2, SDL2image,  SDL2 mixer,  SDL2 ttf
+
+
+-tách file, quản lý .cpp và file .h
+ 
+ 
+-refactor
   
   
   
 # 5.Kết luận 
+
+- Từ game không có đồ họa đến có đồ họa xuất hiện nhiều vấn đề
+
+- Có nhiều cách để thể hiện ý tưởng
+
+- Hiểu rõ vấn đề thì tiết kiêm được nhiều thời gian
+
+
 # *Hướng phát triển: 
   
   
   
-  -phiên bản có bãi mìn hình tròn 
+  -phiên bản có bãi mìn hình tròn
   
   
   
@@ -168,9 +220,23 @@ SDL_ttf-2.0.15 https://www.libsdl.org/projects/SDL_ttf/release/
 # *Điều tâm đắc:
   
   
-  - hàm createPlayGround() lúc đầu rất dài do chia nhỏ nhiều trường hợp, ở bản cuối cùng được rút ngắn, đưa về bản chất
-  - hàm để mở các ô xung quanh phát triển từ mở duy nhất ô bấm vào -> mở các ô trên cùng cột/hàng -> tạo lớp riêng để lưu các ô -> hiện tại (có tham khảo)
-  - 
+  - hàm createPlayGround() lúc đầu chia nhỏ nhiều trường hợp, ở bản cuối cùng được rút ngắn, đưa về bản chất
+
+
+
+  - hàm để mở các ô xung quanh phát triển từ mở duy nhất ô bấm vào -> mở các ô trên cùng cột/hàng -> tạo lớp riêng để lưu các ô 
+    
+
+#Tham khảo từ  
+
+https://lazyfoo.net ( các hàm xử lí in ra màn hình, tạo đồng hồ, thao tác với chuột, bàn phím, trình tự ...)
+
+https://phattrienphanmem123az.com (tạo menu)
+
+https://www.youtube.com/watch?v=rPqyVIDfHEg ( refactor, logic)
+
+
+
   
   
   
