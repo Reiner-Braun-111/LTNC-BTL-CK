@@ -139,7 +139,7 @@ Khi chơi có:
 
 
 
--Có đồng hồ tính thời gian từ khi bất đầu
+-Có đồng hồ tính thời gian từ khi bắt đầu
 
 
 
@@ -184,7 +184,7 @@ Khi kết thúc game:
 -mảng, con trỏ, sstream, lớp
 
 
--đồ họa SDL2, SDL2image,  SDL2 mixer,  SDL2 ttf
+-đồ họa SDL2, SDL2_image,  SDL2_mixer,  SDL2_ttf
 
 
 -tách file, quản lý .cpp và file .h
@@ -200,7 +200,9 @@ Khi kết thúc game:
 
 - Có nhiều cách để thể hiện ý tưởng
 
-- Hiểu rõ vấn đề thì tiết kiêm được nhiều thời gian
+- Hiểu rõ vấn đề thì tiết kiệm được nhiều thời gian
+
+- nếu không có các sample thì mất rất nhiều thời gian với thư viện đồ họa
 
 
 # *Hướng phát triển: 
@@ -225,6 +227,9 @@ Khi kết thúc game:
 
 
   - hàm để mở các ô xung quanh phát triển từ mở duy nhất ô bấm vào -> mở các ô trên cùng cột/hàng -> tạo lớp riêng để lưu các ô 
+
+
+  - hiểu logic để hiển thị, tương tác với chuột
     
 
 #Tham khảo từ  
