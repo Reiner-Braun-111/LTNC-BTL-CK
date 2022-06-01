@@ -232,7 +232,7 @@ Khi kết thúc game:
   - hiểu logic để hiển thị, tương tác với chuột
     
 
-#Tham khảo từ  
+# Tham khảo từ  
 
 https://lazyfoo.net ( các hàm xử lí in ra màn hình, tạo đồng hồ, thao tác với chuột, bàn phím, trình tự ...)
 
